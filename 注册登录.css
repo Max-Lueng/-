@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: url(photo/bilibili.png);
+}
+.top {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.top h2 {
+    padding: 30px 150px;
+}
+.top fieldset{
+    padding: 0 120px;
+}
+.top input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.top a {
+    text-decoration: none;
+    color: #09f;
+    margin: 10px 0;
+}
+.top a:hover {
+    color: #f63;
+}
+.top .a a {
+    clear: both;
+    float: right;
+    text-decoration: none;
+    padding-right: 25px;
+    color: #09f;
+}
+.top .a a:hover {
+    color: #f63;
+}
+.top .p {
+    text-decoration: none;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #39e;
+    text-align: center;
+}
+.top .p a {
+    color: white;
+}
+.footer {
+    padding-top: 30px;
+    width: 100%;
+    background-color: #eee;
+    float: right;
+}
+.footer a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer .a {
+    padding-left: 40%;
+}
+.footer p {
+    padding-left: 35%;
+}
+.new {
+    width: 100%;
+    margin: 50px 0 20px;
+}
+.new .left {
+    width: 40%;
+    float: left;
+}
+.new .left img {
+    float: right;
+}
+.new .left a {
+    clear: both;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: #39f;
+}
+.new .left p {
+    clear: both;
+    float: right;
+}
+.new .middle {
+    width: 1px;
+    height: 250px;
+    background-color: #999;
+    margin: 0 auto 0 50%;
+    position: absolute;
+}
+.new .right {
+    width: 40%;
+    float: right;
+}
+.new .right input {
+    clear: both;
+    float: left;
+}
+.new .right .style {
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    float: left;
+    background-color: #ffa;
+}
+.new .right img {
+    clear: both;
+    float: left;
+}
+.new .right .type {
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    float: left;
+}
+.new .right a {
+    clear: both;
+    float: left;
+    text-decoration: none;
+    color: #39f;
+}
+.new .right a:hover {
+    color: #f33;
+}
+.new .right .a {
+    margin-top: 18px;
+    float: left;
+    clear: none;
+}
+.new .right p {
+    float: left;
+}
+.new .right .button {
+    float: left;
+    background-color: #39f;
+    width: 190px;
+    height: 30px;
+    color: white;
+}
+.new .right .button:hover {
+    background-color: #3af;
+}
+.new .right .button1 {
+    margin-left: 20px;
+    clear: none;
+    float: left;
+    background-color: #fff;
+    width: 190px;
+    height: 30px;
+    color: black;
+}
+.new .right .on {
+    clear: none;
+    float: left;
+    background-color: #fff;
+    width: 190px;
+    color: black;
+}
+.new .right .button1:hover {
+    background-color: #eee;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .header {
+        width: 100%;
+        height: 100px;
+        background-image: url(photo/bilibili.png);
+    }
+    .top {
+             width: 100%;
+             margin: 0 auto;
+             margin-top: 40px;
+         }
+    .top h2 {
+        padding: 30px 150px;
+    }
+    .top fieldset{
+        padding: 0 20%;
+    }
+    .top input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .top a {
+        text-decoration: none;
+        color: #09f;
+        margin: 10px 0;
+    }
+    .top a:hover {
+        color: #f63;
+    }
+    .top .a a {
+        clear: both;
+        text-decoration: none;
+        float: left;
+        color: #09f;
+    }
+    .top .a a:hover {
+        color: #f63;
+    }
+    .top .p {
+        text-decoration: none;
+        width: 350px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #39e;
+        text-align: center;
+    }
+    .top .p a {
+        color: white;
+    }
+    .footer {
+        padding-top: 30px;
+        width: 100%;
+        background-color: #eee;
+        float: right;
+    }
+    .footer a {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer .a {
+        padding-left: 40%;
+    }
+    .footer p {
+        padding-left: 35%;
+    }
+    .footer {
+        padding-top: 30px;
+        width: 100%;
+        background-color: #eee;
+        float: right;
+    }
+    .footer a {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer .a {
+        padding: 0;
+    }
+    .footer p {
+        padding: 0;
+    }
+    .new {
+        width: 100%;
+        margin: 50px 0 20px;
+    }
+    .new .left {
+        width: 100%;
+        float: left;
+    }
+    .new .left img {
+        float: left;
+        margin: 0 auto;
+    }
+    .new .left p {
+             clear: both;
+             float: left;
+         }
+    .new .left a {
+        clear: both;
+        float: none;
+        text-decoration: none;
+        margin-bottom: 20px;
+        color: #39f;
+    }
+
+    .new .middle {
+        width: 1px;
+        height: 250px;
+        background-color: #999;
+        margin: 0 auto 0 50%;
+        position: absolute;
+        display: none;
+    }
+    .new .right {
+        width: 100%;
+        float: right;
+    }
+    .new .right input {
+        clear: both;
+        float: left;
+    }
+    .new .right .style {
+        margin-top: 10px;
+        width: 400px;
+        height: 30px;
+        float: left;
+        background-color: #ffa;
+    }
+    .new .right img {
+        clear: both;
+        float: left;
+    }
+    .new .right .type {
+        margin-top: 10px;
+        width: 400px;
+        height: 30px;
+        float: left;
+    }
+    .new .right a {
+        clear: both;
+        float: left;
+        text-decoration: none;
+        color: #39f;
+    }
+    .new .right a:hover {
+        color: #f33;
+    }
+    .new .right .a {
+        margin-top: 18px;
+        float: left;
+        clear: none;
+    }
+    .new .right p {
+        float: left;
+    }
+    .new .right .button {
+        float: left;
+        background-color: #39f;
+        width: 190px;
+        height: 30px;
+        color: white;
+    }
+    .new .right .button:hover {
+        background-color: #3af;
+    }
+    .new .right .button1 {
+        margin-left: 20px;
+        clear: none;
+        float: left;
+        background-color: #fff;
+        width: 190px;
+        height: 30px;
+        color: black;
+    }
+    .new .right .button1:hover {
+        background-color: #eee;
+    }
+}

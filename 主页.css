@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+     list-style: none;
+ }
+.nav {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #111;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+}
+.nav ul li a:hover {
+    color: aqua;
+    font-size: 1.2rem;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    border-right: 1px solid #444;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: #35f;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+}
+.nav ul li ul {
+    display: none;
+    position: absolute;
+}
+.nav ul li:hover ul {
+    display: block;
+}
+.nav ul li ul li {
+
+    float: none;
+    width: 100px;
+    background: #333;
+    border-top: 1px dotted  dodgerblue;
+}
+.nav .color {
+    background-color: #999;
+    font-size: larger;
+}
+.h {
+    float: left;
+    padding-left: 20%;
+}
+.nav .join a{
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    background-color: #9f3;
+    float: right;
+    text-decoration: none;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+.nav .join a:hover {
+    background-color: #093;
+}
+.header {
+    width: 20%;
+    float: right;
+    margin-top: 50px;
+}
+.top {
+    margin-top: 55px;
+    width: 60%;
+    float: right;
+}
+.top a {
+    clear: both;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+}
+.top input {
+    margin-left: 88px;
+}
+.top a:hover {
+    background-color: #888;
+}
+.top .box {
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .6) inset;
+    width: 350px;
+    height: 225px;
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+.top .box2 {
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .6) inset;
+    width: 350px;
+    height: 225px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 106px;
+}
+.top .box a {
+    clear: both;
+    float: left;
+    color: black;
+    background: #fff;
+}
+.top .box2 a {
+    clear: both;
+    float: left;
+    color: black;
+    background: #fff;
+}
+.top .box a:hover {
+    text-decoration: underline;
+    color: #09f;
+}
+.top .box1 {
+    margin: 20px;
+}
+.left {
+    clear: both;
+    width: 80%;
+    float: right;
+}
+.left .h1 {
+    color: #aaa;
+    clear: both;
+}
+.left .box {
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .6) inset;
+    margin: 50px 20px;
+    width: 350px;
+    height: 225px;
+    position: relative;
+    float: left;
+}
+.left .box a {
+    clear: both;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.left .box a:hover {
+    text-decoration: underline;
+    color: #09f;
+}
+.footer {
+    padding-top: 30px;
+    width: 80%;
+    background-color: #eee;
+    float: right;
+}
+.footer a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer .a {
+    padding-left: 30%;
+}
+.footer p {
+    padding-left: 25%;
+}
+.new {
+    position: relative;
+    width: 80%;
+    float: right;
+}
+.new .box {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 50px 0 25px;
+}
+.new .box a {
+    text-decoration: none;
+    color: black;
+}
+.new .box a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .nav {
+        width: 100px;
+        height: 100%;
+        float: left;
+        background-color: #111;
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        z-index: 9999;
+    }
+    .nav ul li a:hover {
+        color: aqua;
+        font-size: 1.2rem;
+    }
+    .nav ul li {
+        float: left;
+    }
+    .nav ul li a {
+        border-right: 1px solid #444;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        color: #35f;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .nav ul li ul {
+        display: none;
+        position: absolute;
+    }
+    .nav ul li:hover ul {
+        display: block;
+    }
+    .nav ul li ul li {
+
+        float: none;
+        width: 100px;
+        background: #333;
+        border-top: 1px dotted  dodgerblue;
+    }
+    .h {
+        float: left;
+        padding: 0;
+    }
+    .nav .join a{
+        border-radius: 4px;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        color: white;
+        background-color: #9f3;
+        float: right;
+        text-decoration: none;
+        margin-right: 20%;
+        margin-top: 5px;
+        left: 10px;
+    }
+    .nav .join a:hover {
+        background-color: #093;
+    }
+    .header {
+        width: 77%;
+        float: right;
+    }
+    .top {
+        width: 80%;
+        float: right;
+        margin-bottom: 50px;
+    }
+    .top a {
+        background: #999;
+        text-decoration: none;
+        color: black;
+        height: 30px;
+    }
+    .top a:hover {
+        background: #888;
+    }
+    .top input {
+        margin-left: 0;
+    }
+    .top .box {
+        clear: both;
+        position: relative;
+        width: 80%;
+        height: 220px;
+        float: left;
+    }
+    .top .box2 {
+        margin-left: 20px;
+    }
+    .top .box2 a:hover {
+        text-decoration: underline;
+        color: #09f;
+        background-color: #fff;
+    }
+    .top .box a {
+        clear: both;
+        float: left;
+        color: black;
+        background: #fff;
+    }
+    .top .box a:hover {
+        text-decoration: underline;
+        color: #09f;
+    }
+    .top .box1 {
+        margin: 20px;
+    }
+    .left {
+        clear: both;
+        width: 80%;
+        float: right;
+    }
+    .left .h1 {
+        color: #eee;
+        clear: both;
+    }
+    .left .box {
+        width: 350px;
+        height: 225px;
+        position: relative;
+        float: left;
+    }
+    .left .box a {
+        text-decoration: none;
+        color: black;
+    }
+    .left .box a:hover {
+        text-decoration: underline;
+        color: #09f;
+    }
+    .footer {
+        padding-top: 30px;
+        width: 80%;
+        background-color: #eee;
+        float: right;
+    }
+    .footer a {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer .a {
+        padding: 0;
+    }
+    .footer p {
+        padding: 0;
+    }
+}

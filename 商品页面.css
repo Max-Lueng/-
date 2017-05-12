@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    width: 40%;
+    float: left;
+}
+.left .box {
+    float: right;
+    margin-top: 20px;
+    clear: both;
+}
+.left .img {
+    clear: both;
+    float: right;
+    margin-top: 20px;
+}
+.right {
+    width: 55%;
+    float: right;
+}
+.right .box {
+    float: left;
+    margin-top: 20px;
+    clear: both;
+}
+.right .two {
+    clear: both;
+    width: 500px;
+    float: left;
+    background-color: #ccc;
+    margin-top: 20px;
+}
+.right .two .left {
+    width: 100px;
+    float: left;
+}
+.right .two .left p {
+    clear: both;
+}
+.right .two .right {
+    float: left;
+}
+.right .two .right p {
+    clear: both;
+}
+.right .two .right a {
+    float: right;
+}
+.right .two p {
+    float: left;
+}
+.right .two a {
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+.right .bottom .left {
+    margin-top: 10px;
+    clear: both;
+    width: 100px;
+    float: left;
+}
+.right .bottom .right {
+    float: left;
+}
+.right .bottom .right input {
+    margin-top: 10px;
+    float: left;
+    margin-left: 5px;
+}
+.right .bottom .right p {
+    margin-top: 10px;
+    clear: none;
+    float: left;
+    margin-left: 10px;
+}
+.right .bottom .right a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border: 1px solid white;
+}
+.right .bottom .right a:visited {
+    background-color: #eee;
+    border: 1px solid red;
+}
+.div {
+    clear: both;
+    height: 1px;
+    width: 500px;
+    background-color: #ccc;
+}
+span {
+    margin: 50px;
+}
+.new {
+    clear: both;
+    width: 500px;
+    text-align: center;
+
+}
+.new a {
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    color: red;
+    background-color: plum;
+    border: 1px solid red;
+}
+.down {
+    clear: none;
+    padding: 5% 20%;
+    float: left;
+}
+.down .box {
+    margin-left: 20px;
+    clear: none;
+    float: left;
+}
+.down .box p {
+    text-align: center;
+    color: #ccc;
+}
+.down .box span {
+    clear: none;
+    float: left;
+}
+
+.down .box span a {
+    text-decoration: none;
+    color: black;
+}
+.down .box .link {
+    width: 1px;
+    height: 150px;
+    background-color: #ccc;
+    float: left;
+    clear: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .left {
+        width: 100%;
+        float: left;
+    }
+
+    .left .box {
+        float: left;
+        margin-top: 20px;
+        clear: both;
+    }
+
+    .left .img {
+        clear: both;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .left .img a:hover {
+
+    }
+
+    .right {
+        width: 100%;
+        float: right;
+    }
+
+    .right .box {
+        float: left;
+        margin-top: 20px;
+        clear: both;
+    }
+
+    .right .two {
+        clear: both;
+        width: 500px;
+        float: left;
+        background-color: #ccc;
+        margin-top: 20px;
+    }
+
+    .right .two .left {
+        width: 100px;
+        float: left;
+    }
+
+    .right .two .left p {
+        clear: both;
+    }
+
+    .right .two .right {
+        float: left;
+    }
+
+    .right .two .right p {
+        clear: both;
+    }
+
+    .right .two .right a {
+        float: right;
+    }
+
+    .right .two p {
+        float: left;
+    }
+
+    .right .two a {
+        float: right;
+        text-decoration: none;
+        color: red;
+    }
+
+    .right .bottom .left {
+        margin-top: 10px;
+        clear: both;
+        width: 100px;
+        float: left;
+    }
+
+    .right .bottom .right {
+        float: left;
+    }
+
+    .right .bottom .right input {
+        margin-top: 10px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .right .bottom .right p {
+        margin-top: 10px;
+        clear: none;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .right .bottom .right a {
+        text-decoration: none;
+        color: black;
+        background-color: #fff;
+        border: 1px solid white;
+    }
+
+    .right .bottom .right a:visited {
+        background-color: #eee;
+        border: 1px solid red;
+    }
+
+    .div {
+        clear: both;
+        height: 1px;
+        width: 500px;
+        background-color: #ccc;
+    }
+
+    span {
+        margin: 50px;
+    }
+
+    .new {
+        clear: both;
+        width: 500px;
+        text-align: center;
+
+    }
+
+    .new a {
+        height: 30px;
+        line-height: 30px;
+        width: 200px;
+        float: left;
+        margin-left: 20px;
+        text-decoration: none;
+        color: red;
+        background-color: plum;
+        border: 1px solid red;
+    }
+
+    .down {
+        clear: none;
+        padding: 5% 0;
+        float: left;
+    }
+
+    .down .box {
+        margin-left: 20px;
+        clear: none;
+        float: left;
+    }
+
+    .down .box p {
+        text-align: center;
+        color: #ccc;
+    }
+
+    .down .box span {
+        clear: none;
+        float: left;
+    }
+
+    .down .box span a {
+        text-decoration: none;
+        color: black;
+    }
+}
